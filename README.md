@@ -63,3 +63,44 @@ This project builds a **production-ready sports analytics system** that combines
 | Frontend | Streamlit |
 | Dataset | FIFA 19 Complete Player Dataset |
 
+
+
+---
+
+## 📊 Dataset
+
+- **FIFA 19 Complete Player Dataset**
+- ~18,000 professional football players
+- Attributes include:
+  - Physical
+  - Technical
+  - Mental
+  - Financial
+
+> Dataset used only for academic and learning purposes.
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/sports-performance-analytics.git
+cd sports-performance-analytics
+```
+### 2️⃣ Create Virtual Environment
+python -m venv myvenv
+source myvenv/bin/activate   # Linux / Mac
+myvenv\Scripts\activate      # Windows
+
+
+###3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+
+###▶️ Running the Application
+Start Backend (FastAPI)
+uvicorn app.main:app --reload --port 8001
+
+Start Frontend (Streamlit)
+streamlit run frontend.py

@@ -1,0 +1,15 @@
+ppt.html
+Dockerfile
+*.mp4
+*.jpg
+README.md
+32440.jpg
+business-person-futuristic-business-environment.jpg
+futuristic-ai-dashboard-display.jpg
+futuristic-football-soccer-player-with-glowing-lights.jpg
+futuristic-soccer-field-illustration.jpg
+myvenv/
+__pycache__/
+data/Footballer.csv
+models/
+yolov8n.pt
